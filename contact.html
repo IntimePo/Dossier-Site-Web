@@ -55,7 +55,7 @@
 <header class="container-element editable-style silex-id-1478366444112-1 section-element prevent-resizable">
         <div class="editable-style silex-element-content silex-id-1478366444112-0 container-element website-width"><div class="editable-style silex-id-1552765147494-1 text-element silex-component prevent-resizable hide-on-desktop hamburger-menu prevent-auto-z-index"><div class="silex-element-content normal">
 <!-- inspired by https://codepen.io/erikterwan/pen/EVzeRP -->
-<div class="hamburger-menu_1659060408824_956 closed">
+<div class="hamburger-menu_1661189907158_424 closed">
     <div class="hamburger-btn fixed">
       <span></span>
       <span></span>
@@ -66,13 +66,13 @@
         <nav class="">
             <ul>
             
-                <li><a href="./">Home</a></li>
+                <li><a href="./" class="">Home</a></li>
             
-                <li><a href="vacations.html">Vacations</a></li>
+                <li><a href="./" title="Accueil" class="">Home</a></li>
             
-                <li><a href="flights.html">Flights</a></li>
+                <li><a href="association.html" title="association">L'association</a></li>
             
-                <li><a href="hotels.html">Hotels</a></li>
+                <li><a href="activit-s.html" title="activites">Activités</a></li>
             
                 <li><a href="contact.html" class="page-link-active">Contact</a></li>
             
@@ -86,13 +86,13 @@
   var isOpen = false;
   function close() {
     isOpen = false;
-    document.querySelector('.hamburger-menu_1659060408824_956').classList.remove('open');
-    document.querySelector('.hamburger-menu_1659060408824_956').classList.add('closed');
+    document.querySelector('.hamburger-menu_1661189907158_424').classList.remove('open');
+    document.querySelector('.hamburger-menu_1661189907158_424').classList.add('closed');
   }
   function open() {
     isOpen = true;
-    document.querySelector('.hamburger-menu_1659060408824_956').classList.add('open');
-    document.querySelector('.hamburger-menu_1659060408824_956').classList.remove('closed');
+    document.querySelector('.hamburger-menu_1661189907158_424').classList.add('open');
+    document.querySelector('.hamburger-menu_1661189907158_424').classList.remove('closed');
   }
   function toggle() {
     if(isOpen) close();
@@ -102,7 +102,7 @@
     close();
     move();
   }
-  var silexElement = document.querySelector('.hamburger-menu_1659060408824_956').closest('.editable-style');
+  var silexElement = document.querySelector('.hamburger-menu_1661189907158_424').closest('.editable-style');
   function move() {
     var data = window.silex
     var rect = silexElement.getBoundingClientRect();
@@ -110,10 +110,10 @@
       top: rect.top + data.scrollTop,
       left: rect.left + data.scrollLeft,
     };
-    var container = document.querySelector('.hamburger-menu_1659060408824_956 .nav-container');
+    var container = document.querySelector('.hamburger-menu_1661189907158_424 .nav-container');
     container.style.transform = 'translate(' + (data.scrollLeft - (offset.left/data.scale)) + 'px, ' + (data.scrollTop - (offset.top/data.scale)) + 'px)';
   }
-  document.querySelector('.hamburger-menu_1659060408824_956 .hamburger-btn').addEventListener('click', function() { toggle(); });
+  document.querySelector('.hamburger-menu_1661189907158_424 .hamburger-btn').addEventListener('click', function() { toggle(); });
   document.addEventListener('resize', scrollOrResize);
   document.addEventListener('scroll', scrollOrResize);
   scrollOrResize()
@@ -121,21 +121,21 @@
 })();
 </script>
 </div></div><a class="editable-style silex-id-1537545843556-0 container-element" href="./"><div class="editable-style silex-id-1537542841131-2 text-element header"><div class="silex-element-content normal"><h1>INTIME POLITIQUE<br></h1></div></div><div class="editable-style image-element silex-id-1650642853819-0"><img src="assets/16px-Water_drop.svg.png"></div></a><div class="editable-style silex-id-1537543262916-6 text-element header hide-on-mobile"><div class="silex-element-content normal"><p><a href="./" class="">Home</a> <a href="association.html">L'association</a> <a href="activit-s.html" class="">Activités</a> <a href="adh-sion.html" class="">Adhésion</a> <a href="contact.html" class="page-link-active">Contact</a></p></div></div></div>
-    </header><section class="container-element editable-style silex-id-1545056415237-3 section-element prevent-resizable page-contact paged-element paged-element-visible"><div class="editable-style silex-id-1545056415233-2 container-element silex-element-content website-width"><div class="editable-style text-element text-style-2 silex-id-1545056530213-6"><div class="silex-element-content normal"><h2>Contact Us<br></h2></div>﻿﻿</div><div class="editable-style silex-id-1548870370847-0 html-element silex-component silex-component-map silex-use-height-not-minheight silex-element-content-full-height"><div class="silex-element-content"><div id="mapdiv_1659060408835_174" class="map"><div class="ol-viewport" style="position: relative; overflow: hidden; width: 100%; height: 100%;"><div style="position: absolute; width: 100%; height: 100%; z-index: 0; display: none;" class="ol-unselectable ol-layers"></div><div style="position: absolute; z-index: 0; width: 100%; height: 100%;" class="ol-overlaycontainer"></div><div style="position: absolute; z-index: 0; width: 100%; height: 100%;" class="ol-overlaycontainer-stopevent"><div class="ol-zoom ol-unselectable ol-control"><button class="ol-zoom-in" type="button" title="Zoom in">+</button><button class="ol-zoom-out" type="button" title="Zoom out">−</button></div><div class="ol-rotate ol-unselectable ol-control ol-hidden"><button class="ol-rotate-reset" type="button" title="Reset rotation"><span class="ol-compass">⇧</span></button></div><div class="ol-attribution ol-unselectable ol-control ol-collapsed" style="display: none;"><ul></ul><button type="button" title="Attributions"><span>i</span></button></div></div></div></div>
+    </header><section class="container-element editable-style silex-id-1545056415237-3 section-element prevent-resizable page-contact paged-element paged-element-visible"><div class="editable-style silex-id-1545056415233-2 container-element silex-element-content website-width"><div class="editable-style text-element text-style-2 silex-id-1545056530213-6"><div class="silex-element-content normal"><h2>Nous contacter<br></h2><p>contact@intimepolitique.xyz<br></p><p><br></p></div>﻿﻿</div><div class="editable-style silex-id-1548870370847-0 html-element silex-component silex-component-map silex-use-height-not-minheight silex-element-content-full-height"><div class="silex-element-content"><div id="mapdiv_1661189837259_420" class="map"></div>
 
 <script>
 
 
-function init_1659060408835_174() {
+function init_1661189837259_420() {
     if(typeof(ol) === 'undefined') {
         // console.warn('Map not ready, restart later')
         // wait for dependencies to be loaded
-        setTimeout(init_1659060408835_174, 1000);
+        setTimeout(init_1661189837259_420, 1000);
         return;
     }
 
     // empty the div before adding the map again
-    $('#mapdiv_1659060408835_174').empty();
+    $('#mapdiv_1661189837259_420').empty();
 
     // apply position and zoom
     // from map URL http://www.openstreetmap.org/#map=18/48.88680/2.34235&layers=C
@@ -153,7 +153,7 @@ function init_1659060408835_174() {
               source: new ol.source.OSM()
             })
           ],
-          target: 'mapdiv_1659060408835_174',
+          target: 'mapdiv_1661189837259_420',
           view: new ol.View({
             center: center,
             zoom: zoom
@@ -162,36 +162,13 @@ function init_1659060408835_174() {
         
     }
 }
-init_1659060408835_174();
+init_1661189837259_420();
 // $(document).on('silex.resize', function() {
-//     $('#mapdiv_1659060408835_174').empty();
-//     init_1659060408835_174();
+//     $('#mapdiv_1661189837259_420').empty();
+//     init_1661189837259_420();
 // });
 
 </script>
-</div></div><div class="editable-style html-element silex-id-1657868619326-25 silex-component-form silex-use-height-not-minheight silex-element-content-full-height"><div class="silex-element-content"><form id="id_1659060408841_413" action="https://formspree.io/contact@intimepolitique.xyz" method="POST">
-  
-  <div>
-    <label for="field1">Nom, structure</label>
-    <input type="text" required="" id="field1" name="field1" placeholder="Your name">
-  </div>
-  
-  
-  <div>
-    <label for="field2">Adresse mail</label>
-    <input type="text" required="" id="field2" name="field2" placeholder="your@email.com">
-  </div>
-  
-  
-  <div class="fill-vertical">
-    <label for="field3">Message</label>
-    <textarea required="" id="field3" name="field3" placeholder="What you have to say"></textarea>
-  </div>
-  
-  <input type="submit" value="Envoyer">
-</form>
-
-
 </div></div></div></section><section class="container-element editable-style silex-id-1537726585006-18 section-element prevent-resizable"><div class="editable-style silex-id-1537726585003-17 container-element silex-element-content website-width"><div class="editable-style text-element silex-id-1537541949036-0 footer">
                 <div class="silex-element-content normal"><h3>Ressources<br></h3><p><a href="https://www.silex.me/" target="_blank" title="Silex website builder">Powered by Silex</a><a href="https://www.free-css.com/assets/files/free-css-templates/preview/page231/travel/" target="_blank"><br>Inspired by this template</a><br><a href="https://unsplash.com/search/photos/travel" target="_blank" title="Travel photos">Photos from unslplash</a><br></p></div>
             </div><div class="editable-style text-element footer silex-id-1537729664972-94">

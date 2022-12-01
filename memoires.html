@@ -56,7 +56,7 @@
         
     <div class="editable-style silex-element-content silex-id-1478366444112-0 container-element website-width"><div class="editable-style silex-id-1552765147494-1 text-element silex-component prevent-resizable hide-on-desktop hamburger-menu prevent-auto-z-index"><div class="silex-element-content normal">
 <!-- inspired by https://codepen.io/erikterwan/pen/EVzeRP -->
-<div class="hamburger-menu_1669847121375_695 closed">
+<div class="hamburger-menu_1669902028203_673 closed">
     <div class="hamburger-btn fixed">
       <span></span>
       <span></span>
@@ -67,13 +67,13 @@
         <nav class="">
             <ul>
             
-                <li><a href="./" class="">Home</a></li>
+                <li><a href="./">Home</a></li>
             
-                <li><a href="./" title="Accueil" class="">Home</a></li>
+                <li><a href="./" title="Accueil">Home</a></li>
             
                 <li><a href="association.html" title="association">L'association</a></li>
             
-                <li><a href="activit-s.html" title="activites">Activités</a></li>
+                <li><a href="activit-s.html" title="activites" class="">Activités</a></li>
             
                 <li><a href="contact.html">Contact</a></li>
             
@@ -87,13 +87,13 @@
   var isOpen = false;
   function close() {
     isOpen = false;
-    document.querySelector('.hamburger-menu_1669847121375_695').classList.remove('open');
-    document.querySelector('.hamburger-menu_1669847121375_695').classList.add('closed');
+    document.querySelector('.hamburger-menu_1669902028203_673').classList.remove('open');
+    document.querySelector('.hamburger-menu_1669902028203_673').classList.add('closed');
   }
   function open() {
     isOpen = true;
-    document.querySelector('.hamburger-menu_1669847121375_695').classList.add('open');
-    document.querySelector('.hamburger-menu_1669847121375_695').classList.remove('closed');
+    document.querySelector('.hamburger-menu_1669902028203_673').classList.add('open');
+    document.querySelector('.hamburger-menu_1669902028203_673').classList.remove('closed');
   }
   function toggle() {
     if(isOpen) close();
@@ -103,7 +103,7 @@
     close();
     move();
   }
-  var silexElement = document.querySelector('.hamburger-menu_1669847121375_695').closest('.editable-style');
+  var silexElement = document.querySelector('.hamburger-menu_1669902028203_673').closest('.editable-style');
   function move() {
     var data = window.silex
     var rect = silexElement.getBoundingClientRect();
@@ -111,14 +111,14 @@
       top: rect.top + data.scrollTop,
       left: rect.left + data.scrollLeft,
     };
-    var container = document.querySelector('.hamburger-menu_1669847121375_695 .nav-container');
+    var container = document.querySelector('.hamburger-menu_1669902028203_673 .nav-container');
     container.style.transform = 'translate(' + (data.scrollLeft - (offset.left/data.scale)) + 'px, ' + (data.scrollTop - (offset.top/data.scale)) + 'px)';
   }
-  document.querySelector('.hamburger-menu_1669847121375_695 .hamburger-btn').addEventListener('click', function() { toggle(); });
+  document.querySelector('.hamburger-menu_1669902028203_673 .hamburger-btn').addEventListener('click', function() { toggle(); });
   document.addEventListener('resize', scrollOrResize);
   document.addEventListener('scroll', scrollOrResize);
   scrollOrResize()
   setTimeout(() => scrollOrResize(), 0)
 })();
 </script>
-</div></div><a class="editable-style silex-id-1537545843556-0 container-element" href="./"><div class="editable-style silex-id-1537542841131-2 text-element header"><div class="silex-element-content normal"><h1>INTIME POLITIQUE<br></h1></div></div><div class="editable-style image-element silex-id-1669844812017-0"><img src="assets/LOGO_V1.-reduit.png"></div></a><div class="editable-style silex-id-1537543262916-6 text-element header hide-on-mobile"><div class="silex-element-content normal"><p><a href="./" class="">Accueil</a> <a href="association.html">L'association</a> <a href="activit-s.html">Activités</a> <a href="adh-sion.html">Adhésion</a> <a href="contact.html">Contact</a></p></div></div></div></header></body></html>
+</div></div><a class="editable-style silex-id-1537545843556-0 container-element" href="./"><div class="editable-style silex-id-1537542841131-2 text-element header"><div class="silex-element-content normal"><h1>INTIME POLITIQUE<br></h1></div></div><div class="editable-style image-element silex-id-1669844812017-0"><img src="assets/LOGO_V1.-reduit.png"></div></a><div class="editable-style silex-id-1537543262916-6 text-element header hide-on-mobile"><div class="silex-element-content normal"><p><a href="./" class="">Accueil</a> <a href="association.html">L'association</a> <a href="activit-s.html" class="">Activités</a> <a href="adh-sion.html">Adhésion</a> <a href="contact.html">Contact</a></p></div></div></div></header><section class="editable-style section-element silex-id-1669902058578-1 page-memoires paged-element paged-element-visible"><div class="editable-style container-element silex-id-1669902058578-2 silex-element-content website-width prevent-draggable"><div class="editable-style text-element silex-id-1669902064955-3 page-memoires paged-element paged-element-visible"><div class="silex-element-content normal"><h1>sur nos traces</h1></div></div><div class="editable-style text-element silex-id-1669902119179-4 page-memoires paged-element paged-element-visible"><div class="silex-element-content normal"><h2>relier nos histoires - visibiliser nos luttes - soigner nos mémoires</h2></div></div></div></section></body></html>

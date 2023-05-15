@@ -56,7 +56,7 @@
         
     <div class="editable-style silex-element-content silex-id-1478366444112-0 container-element website-width"><div class="editable-style silex-id-1552765147494-1 text-element silex-component prevent-resizable hide-on-desktop hamburger-menu prevent-auto-z-index"><div class="silex-element-content normal">
 <!-- inspired by https://codepen.io/erikterwan/pen/EVzeRP -->
-<div class="hamburger-menu_1682698280691_193 closed">
+<div class="hamburger-menu_1684158448052_537 closed">
     <div class="hamburger-btn fixed">
       <span></span>
       <span></span>
@@ -73,9 +73,9 @@
             
                 <li><a href="adh-sion.html" title="Adhésion">Adhésion</a></li>
             
-                <li><a href="activit-s.html" title="activites">Activités</a></li>
+                <li><a href="activit-s.html" title="activites" class="">Activités</a></li>
             
-                <li><a href="contact.html" class="">Contact</a></li>
+                <li><a href="contact.html">Contact</a></li>
             
             </ul>
         </nav>
@@ -87,13 +87,13 @@
   var isOpen = false;
   function close() {
     isOpen = false;
-    document.querySelector('.hamburger-menu_1682698280691_193').classList.remove('open');
-    document.querySelector('.hamburger-menu_1682698280691_193').classList.add('closed');
+    document.querySelector('.hamburger-menu_1684158448052_537').classList.remove('open');
+    document.querySelector('.hamburger-menu_1684158448052_537').classList.add('closed');
   }
   function open() {
     isOpen = true;
-    document.querySelector('.hamburger-menu_1682698280691_193').classList.add('open');
-    document.querySelector('.hamburger-menu_1682698280691_193').classList.remove('closed');
+    document.querySelector('.hamburger-menu_1684158448052_537').classList.add('open');
+    document.querySelector('.hamburger-menu_1684158448052_537').classList.remove('closed');
   }
   function toggle() {
     if(isOpen) close();
@@ -103,7 +103,7 @@
     close();
     move();
   }
-  var silexElement = document.querySelector('.hamburger-menu_1682698280691_193').closest('.editable-style');
+  var silexElement = document.querySelector('.hamburger-menu_1684158448052_537').closest('.editable-style');
   function move() {
     var data = window.silex
     var rect = silexElement.getBoundingClientRect();
@@ -111,17 +111,17 @@
       top: rect.top + data.scrollTop,
       left: rect.left + data.scrollLeft,
     };
-    var container = document.querySelector('.hamburger-menu_1682698280691_193 .nav-container');
+    var container = document.querySelector('.hamburger-menu_1684158448052_537 .nav-container');
     container.style.transform = 'translate(' + (data.scrollLeft - (offset.left/data.scale)) + 'px, ' + (data.scrollTop - (offset.top/data.scale)) + 'px)';
   }
-  document.querySelector('.hamburger-menu_1682698280691_193 .hamburger-btn').addEventListener('click', function() { toggle(); });
+  document.querySelector('.hamburger-menu_1684158448052_537 .hamburger-btn').addEventListener('click', function() { toggle(); });
   document.addEventListener('resize', scrollOrResize);
   document.addEventListener('scroll', scrollOrResize);
   scrollOrResize()
   setTimeout(() => scrollOrResize(), 0)
 })();
 </script>
-</div></div><a class="editable-style silex-id-1537542841131-2 text-element header page-link-active" href="./"><div class="silex-element-content normal"><h1>&nbsp;&nbsp;&nbsp;&nbsp; Intime Politique<br></h1></div></a><div class="editable-style container-element silex-id-1671662791133-0 card"></div><div class="editable-style silex-id-1537543262916-6 text-element header hide-on-mobile"><div class="silex-element-content normal"><p><a href="./" class="page-link-active">Accueil</a> <a href="association.html">L'association</a> <a href="activit-s.html">Activités</a> <a href="adh-sion.html">Adhésion</a> <a href="contact.html" class="">Contact</a></p><span class="_wysihtml-temp-caret-fix" style="position: absolute; display: block; min-width: 1px; z-index: 99999;">﻿</span></div></div></div></header><section class="editable-style section-element silex-id-1671672060793-19 page-home paged-element paged-element-visible"><div class="editable-style container-element silex-id-1671672060798-20 silex-element-content website-width prevent-draggable"><div class="editable-style container-element silex-id-1672962000225-5 card"></div><div class="editable-style container-element silex-id-1672962071292-6 card"></div><div class="editable-style container-element silex-id-1673015115258-0 card hide-on-mobile page-home paged-element paged-element-visible"></div><div class="editable-style container-element silex-id-1673015377716-1 hide-on-mobile page-home paged-element card paged-element-visible"></div></div></section><section class="editable-style section-element silex-id-1671663685841-2 page-home paged-element paged-element-visible"><div class="editable-style container-element silex-id-1671663685841-3 website-width" title=""><div class="editable-style text-element silex-id-1671663685841-4"><div class="silex-element-content normal"><p>Intime Politique s'inscrit dans les histoires oubliées, invisibilisées, minimisées. <br>Pour continuer d'écrire nos histoires depuis nos corps minorisés, et sortir de "LA" grande histoire, écrite par des dominants.<br>Le féminisme "seul" ne suffit pas, l'antiracisme "seul" non plus, nous sommes queerféministes, car les théories queers abordent sans les séparer le genre, les sexualités, le racisme, la colonialité, le génocide, l'esclavage, le post-esclavage et l'exploitation des classes.<br>Pour nous, comme pour beaucoup d'autres, se revendiquer "queer" dépasse donc le fait de se reconnaître <br>dans les minorités de genre et de sexualité, il s'agit aussi d'un positionnement politique militant contre des systèmes de domination (raciste, classiste, validiste, cis-hétéro-patriarcal-capitaliste...) dans une perspective révolutionnaire</p></div></div></div></section><section class="editable-style section-element silex-id-1669849115050-5 page-home paged-element paged-element-visible"><div class="editable-style container-element silex-id-1669849115051-6 silex-element-content website-width prevent-draggable"><div class="editable-style html-element silex-id-1669934411227-0 page-home paged-element paged-element-visible"><div class="silex-element-content"><iframe style="background-color: rgb(255, 255, 255) !important; border: 1px solid rgb(236, 147, 41) !important; min-width: 220px !important; min-height: 210px !important; max-height: 600px !important; pointer-events: all !important; z-index: 999 !important; width: 630px !important; height: 164px !important;" srcdoc="<html><head><style>html, body {
+</div></div><a class="editable-style silex-id-1537542841131-2 text-element header page-link-active" href="./"><div class="silex-element-content normal"><h1>&nbsp;&nbsp;&nbsp;&nbsp; Intime Politique<br></h1></div></a><div class="editable-style container-element silex-id-1671662791133-0 card"></div><div class="editable-style silex-id-1537543262916-6 text-element header hide-on-mobile"><div class="silex-element-content normal"><p><a href="./" class="page-link-active">Accueil</a> <a href="association.html">L'association</a> <a href="activit-s.html" class="">Activités</a> <a href="adh-sion.html">Adhésion</a> <a href="contact.html" class="">Contact</a></p><span class="_wysihtml-temp-caret-fix" style="position: absolute; display: block; min-width: 1px; z-index: 99999;">﻿</span></div></div></div></header><section class="editable-style section-element silex-id-1671672060793-19 page-home paged-element paged-element-visible"><div class="editable-style container-element silex-id-1671672060798-20 silex-element-content website-width prevent-draggable"><div class="editable-style container-element silex-id-1672962000225-5 card"></div><div class="editable-style container-element silex-id-1672962071292-6 card"></div><div class="editable-style container-element silex-id-1673015115258-0 card hide-on-mobile page-home paged-element paged-element-visible"></div><div class="editable-style container-element silex-id-1673015377716-1 hide-on-mobile page-home paged-element card paged-element-visible"></div></div></section><section class="editable-style section-element silex-id-1671663685841-2 page-home paged-element paged-element-visible"><div class="editable-style container-element silex-id-1671663685841-3 website-width" title=""><div class="editable-style text-element silex-id-1671663685841-4"><div class="silex-element-content normal"><p>Intime Politique s'inscrit dans les histoires oubliées, invisibilisées, minimisées. <br>Pour continuer d'écrire nos histoires depuis nos corps minorisés, et sortir de "LA" grande histoire, écrite par des dominants.<br>Le féminisme "seul" ne suffit pas, l'antiracisme "seul" non plus, nous sommes queerféministes, car les théories queers abordent sans les séparer le genre, les sexualités, le racisme, la colonialité, le génocide, l'esclavage, le post-esclavage et l'exploitation des classes.<br>Pour nous, comme pour beaucoup d'autres, se revendiquer "queer" dépasse donc le fait de se reconnaître <br>dans les minorités de genre et de sexualité, il s'agit aussi d'un positionnement politique militant contre des systèmes de domination (raciste, classiste, validiste, cis-hétéro-patriarcal-capitaliste...) dans une perspective révolutionnaire</p></div></div></div></section><section class="editable-style section-element silex-id-1669849115050-5 page-home paged-element paged-element-visible"><div class="editable-style container-element silex-id-1669849115051-6 silex-element-content website-width prevent-draggable"><div class="editable-style html-element silex-id-1669934411227-0 page-home paged-element paged-element-visible"><div class="silex-element-content"><iframe style="background-color: rgb(255, 255, 255) !important; border: 1px solid rgb(236, 147, 41) !important; min-width: 220px !important; min-height: 210px !important; max-height: 600px !important; pointer-events: all !important; z-index: 999 !important; width: 630px !important; height: 164px !important;" srcdoc="<html><head><style>html, body {
   color: #303030 !important;
   height: 100% !important;
   overflow: hidden !important;
